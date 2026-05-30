@@ -5,8 +5,7 @@ on:
 
 jobs:
   publish:
-    needs: build
-    timeout-minutes: 60
+    timeout-minutes: 10
     runs-on: ubuntu-latest
     steps:
       - name: Execute remote SSH commands
