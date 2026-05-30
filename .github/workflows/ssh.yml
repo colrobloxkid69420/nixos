@@ -3,7 +3,7 @@ name: ssh-nixos-update
 on: 
   push: [ main ]
 
-job:
+jobs:
   publish:
     needs: build
     timeout-minutes: 60
