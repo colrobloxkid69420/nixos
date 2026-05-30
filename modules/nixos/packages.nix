@@ -18,8 +18,6 @@
         pciutils
         mission-center
         lshw
-        inputs.viu.packages.${pkgs.system}.default
-        inputs.kwin-effects-forceblur.packages.${pkgs.system}.default
         # inputs.wivrn.packages.${pkgs.system}.default
         nodejs_24
         lexend
@@ -71,8 +69,9 @@
         pinta
         networkmanager
         kitty
-        python310
+        python3
         prover9
+        android-tools
         cudaPackages.cuda_nvcc
         kdePackages.kservice
         haskell.compiler.native-bignum.ghcHEAD

@@ -2,7 +2,7 @@
   description = "NixOS flake";
 
   inputs = {
-    nixpkgs.url             = "github:NixOS/nixpkgs/nixos-25.11";
+    nixpkgs.url             = "github:NixOS/nixpkgs/nixos-26.05";
     nixpkgs-unstable.url    = "github:NixOS/nixpkgs/nixos-unstable";
     flake-parts.url         = "github:hercules-ci/flake-parts";
     import-tree.url         = "github:vic/import-tree";
@@ -24,15 +24,6 @@
     mcpo-src = {
       url   = "github:open-webui/mcpo";
       flake = false;
-    };
-
-    viu = {
-      url = "github:viu-media/viu";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-    kwin-effects-forceblur = {
-      url = "github:taj-ny/kwin-effects-forceblur";
-      inputs.nixpkgs.follows = "nixpkgs";
     };
     nix-index-database = {
       url = "github:nix-community/nix-index-database";
